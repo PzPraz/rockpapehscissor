@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&family=Roboto:wght@300;500;900&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.section {
+    height: 100%;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.bg{
+    height: 100%;
+    background-image: url(img/wp2903002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    background: transparent;
+    gap: 50px;
+    transition: all .07s ease;
+}
+
+.header{
+    font-family: 'Libre Franklin', sans-serif;
+    color: black;
+    -webkit-text-stroke: 1px #FFE81F;
+    font-weight:500;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+img{
+    height:150px;
+    width: 150px;
+    border-radius: 15px;
+    border: 5px solid #15f2d1;
+    background-color: transparent;
+}
+
+.footer{
+    display: flex;
+    color: #FFE81F;
+    padding: 50px;
+    font-family: 'Libre Franklin'; 
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.yourScore{
+    display:flex;
+    padding-left: 120px;
+    -webkit-text-stroke: 1px #FFE81F;
+    color: black;
+}
+
+.opponentsScore{
+    display: flex;
+    padding-right: 120px;
+    -webkit-text-stroke: 1px #FFE81F;
+    color: black;
+}
+
+.resultContainer{
+    display: flex;
+    -webkit-text-stroke: 1px #FFE81F;
+    color: black;
+    gap : 200px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px
+}
+
+
+
+
+  #1 {
+      border-radius: 15px;
+  }
+
+  .card{
+      cursor: pointer; 
+  }
+
+  .card:hover{
+      box-shadow: 0 0 1em 0px #15f2d1;
+      border-radius: 15px;
+  }
+  
+  .card:active, .card *:active{ 
+    box-shadow: 0 0 1em 0px #15f2d1;
+    border-radius: 15px;
+  }
+
+
+ .enemyChoice{
+    border: 5px solid #EB212E;
+} 
+
+
+
+button:hover{
+    opacity: 1;
+}
+
+button:active, button *:active{
+    box-shadow: 0 0 1em 0 #FFE81F;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+
+button{
+    border: 1px solid #FFE81F;
+    font-size: 20px;
+    color: #FFE81F;
+    background-color: black;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    opacity:0.5;
+}
+
+
+    
