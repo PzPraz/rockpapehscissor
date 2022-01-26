@@ -132,7 +132,7 @@ function getScissorsImg(){
 }
 
 function reset(){
-    enemyChoice.src = 'img/photo-1554050857-c84a8abdb5e2.jpeg'
+    enemyChoice.src = "img/photo-1554050857-c84a8abdb5e2.jpeg"
     enemyChoice.setAttribute('style', 'box-shadow: none')
     point = 0;
     enemyPoint = 0;
